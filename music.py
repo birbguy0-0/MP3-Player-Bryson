@@ -8,7 +8,7 @@ tk.Label(window, text="Good Afteroon", bg="lightgreen").pack(fill="both", expand
 tk.Label(window, text="Good Night", bg="lightpink").pack(fill="x")
 button_row = tk.Frame(window)
 button_row.pack(pady=10)
-tk.Button(button_row, text="OK").pack(side="left", padx=5)
+tk.Button(button_row, text="OK").pack(side="right", padx=5)
 tk.Button(button_row, text="Cancel").pack(side="left", padx=5)
 window.mainloop()
 pygame.mixer.init()
